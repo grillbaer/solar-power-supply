@@ -2,9 +2,9 @@
 
 <img src="media/solar-panel.jpg" width=468> <img src="media/breadboard-top.jpg" width=250>
 
-This is a stand-alone solar power supply for operation of micro controller projects with li-ion rechargeable batteries and a highly efficient charge controller. It optimized to harvest the maximum energy from small solar panels in dull winter weeks, when many MPPT controllers harvest no energy at all. It's not meant to get the most power out of the panel in bright summer sun. That's where MPPT controllers have their place. For powering a stand-alone application, the supply must work for the worst case.
+This is a stand-alone solar power supply for operation of micro controller projects with li-ion rechargeable batteries and a highly efficient charge controller. It's optimized to harvest the maximum energy from small solar panels in dull winter weeks, when many MPPT (maximum power point tracking) controllers harvest no energy at all. It's not meant to get the most power out of the panel in bright summer sun. That's where MPPT controllers have their place. For powering a stand-alone application, the supply must work for the worst case.
 
-Charging and power consumption of the application work in parallel. When there is more current from the solar panel than needed by the application load, the battery will charge up. When there is less, the battery delivers the missing current.
+Charging and power supply of the application work in parallel. When there is more current from the solar panel than needed by the application load, the battery will charge up. When there is less, the battery delivers the missing current.
 
 Be aware that small solar panels only produce a small amount of energy in winter and on dull days. This may be only around a percent of the panel's rated peak performance. So, it's absolutely important to bring down the power consumption of your application to a few milli-amperes. Otherwise it will inevitabely run out of battery after some winter weeks.
 
@@ -18,7 +18,7 @@ IMPORTANT:
 
 To test and enhance the circuit, I've got an experimental set-up with a 10 Wp 12 V solar panel, two in-parallel Samsung INR18650-35E 3500mAh cells and a ~50 mW load resistor. An ESP32 and two ADS1115 ADCs perform on-going measurement and data transmission to ThingsPeak, see project https://github.com/grillbaer/esp32-iot-logger.
 
-<img src="media/test-setup-1.jpg" height=500> <img src="media/test-setup-2.jpg" height=500>
+<img src="media/test-setup-1.jpg" width=394> <img src="media/test-setup-2.jpg" width=400>
 
 Note that there were several changes in the circuit and set-up over time which influence the results:
 
@@ -49,7 +49,7 @@ Notes:
 
 The KiCAD files in this project contain a one-sided PCB layout that can be built-up on a 2.54 mm raster breadboard as prototype:
 
-<img src="media/kicad-pcb.png" width=600>
+<img src="media/kicad-pcb.png">
 
 # Prototype
 
