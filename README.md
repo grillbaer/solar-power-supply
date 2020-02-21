@@ -1,6 +1,6 @@
 # Solar Power Supply - Energy Harvesting
 
-<img src="media/solar-panel.jpg" height=300> <img src="media/breadboard-top.jpg" height=300>
+<img src="media/solar-panel.jpg" width=468> <img src="media/breadboard-top.jpg" width=250>
 
 This is a stand-alone solar power supply for operation of micro controller projects with li-ion rechargeable batteries and a highly efficient charge controller. It optimized to harvest the maximum energy from small solar panels in dull winter weeks, when many MPPT controllers harvest no energy at all. It's not meant to get the most power out of the panel in bright summer sun. That's where MPPT controllers have their place. For powering a stand-alone application, the supply must work for the worst case.
 
